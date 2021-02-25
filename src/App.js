@@ -1,6 +1,9 @@
 //import logo from "./logo.svg";
 import "./App.css";
-import EventBind from "./components/EventBind";
+import NameList from "./components/NameList";
+//import ParentComponent from "./components/ParentComponent";
+//import UserGreeting from "./components/UserGreeting";
+//import EventBind from "./components/EventBind";
 //import DestructuringClass from "./components/DestructuringClass";
 // import FunctionClick from "./components/FunctionClick";
 //import Message from "./components/Message";
@@ -23,7 +26,10 @@ function App() {
       {/* <GreetDestructuring name="Rahul" heroname="Shaktiman"/> */}
       {/* <DestructuringClass name="Ankur" rollNo="20164026" nickname="sonu"/> */}
       {/* <FunctionClick/> */}
-      <EventBind/>
+      {/* <EventBind/> */}
+      {/* <ParentComponent/> */}
+      {/* <UserGreeting/> */}
+      <NameList />
     </div>
   );
 }
