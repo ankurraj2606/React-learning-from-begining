@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
-
+//import logo from "./logo.svg";
+import "./App.css";
+import EventBind from "./components/EventBind";
+//import DestructuringClass from "./components/DestructuringClass";
+// import FunctionClick from "./components/FunctionClick";
+//import Message from "./components/Message";
+//import Greet from "./components/Greet";
+//import Greeting from "./components/Introduction";
+//import Increment from './components/Increment'
+//import GreetDestructuring from './components/GreetDestructuring'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Greet name="Singh" heroname="Batman">
+        <p>This is children</p>
+      </Greet>
+      <Greeting name="Rahul" heroname="Shaktiman" />
+      <Greet name="Raj" heroname="Superman">
+        <button>Ankur</button>
+      </Greet> */}
+      {/* <Message /> */}
+      {/* <Increment/> */}
+      {/* <GreetDestructuring name="Rahul" heroname="Shaktiman"/> */}
+      {/* <DestructuringClass name="Ankur" rollNo="20164026" nickname="sonu"/> */}
+      {/* <FunctionClick/> */}
+      <EventBind/>
     </div>
   );
 }

@@ -1,0 +1,7 @@
+{
+    "editor.fontSize": 13,
+    "workbench.colorTheme": "Monokai Dimmed",
+    "workbench.editor.decorations.colors": true,
+    "screencastMode.verticalOffset": 2,
+    "screencastMode.mouseIndicatorColor": "#bc8f8f"
+}
