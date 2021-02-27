@@ -1,6 +1,8 @@
 //import logo from "./logo.svg";
 import "./App.css";
-import NameList from "./components/NameList";
+import Form from "./components/Form";
+//import NameListObj from "./components/NameListObj";
+//import NameList from "./components/NameList";
 //import ParentComponent from "./components/ParentComponent";
 //import UserGreeting from "./components/UserGreeting";
 //import EventBind from "./components/EventBind";
@@ -29,7 +31,9 @@ function App() {
       {/* <EventBind/> */}
       {/* <ParentComponent/> */}
       {/* <UserGreeting/> */}
-      <NameList />
+      {/* <NameList /> */}
+      {/* <NameListObj /> */}
+      <Form />
     </div>
   );
 }
